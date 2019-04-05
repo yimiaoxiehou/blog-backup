@@ -272,7 +272,7 @@ CREATE TABLE `typecho_robots_logs` (
   `ip` varchar(16) DEFAULT NULL,
   `ltime` int(10) unsigned DEFAULT '0',
   PRIMARY KEY (`lid`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -281,7 +281,7 @@ CREATE TABLE `typecho_robots_logs` (
 
 LOCK TABLES `typecho_robots_logs` WRITE;
 /*!40000 ALTER TABLE `typecho_robots_logs` DISABLE KEYS */;
-INSERT INTO `typecho_robots_logs` VALUES (1,'google','/','66.102.6.53',1551367431),(2,'google','/','66.102.6.51',1551367432),(3,'google','/','66.102.6.51',1551548351),(4,'google','/','66.102.6.55',1551548352);
+INSERT INTO `typecho_robots_logs` VALUES (1,'google','/','66.102.6.53',1551367431),(2,'google','/','66.102.6.51',1551367432),(3,'google','/','66.102.6.51',1551548351),(4,'google','/','66.102.6.55',1551548352),(5,'360','/','196.52.43.68',1554414430);
 /*!40000 ALTER TABLE `typecho_robots_logs` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -329,4 +329,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-04-05  1:30:23
+-- Dump completed on 2019-04-06  1:30:35
